@@ -107,3 +107,4 @@ c:\Users\USER\Documents\DemoQA\bin\Debug\net8.0\ICSharpCode.SharpZipLib.dll
 c:\Users\USER\Documents\DemoQA\bin\Debug\net8.0\WebDriverManager.dll
 c:\Users\USER\Documents\DemoQA\bin\Debug\net8.0\SeleniumExtras.PageObjects.dll
 c:\Users\USER\Documents\DemoQA\bin\Debug\net8.0\SeleniumExtras.WaitHelpers.dll
+C:\Users\USER\Documents\DemoQA\obj\Debug\net8.0\DemoQA.sourcelink.json
