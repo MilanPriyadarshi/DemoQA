@@ -12,10 +12,17 @@ namespace DemoQA.HomePage1
         }
         [FindsBy(How=How.XPath,Using ="//h5[text()='Elements']")]
         IWebElement elementsBtn;
+        [FindsBy(How=How.XPath,Using ="//h5[text()='Forms']")]
+        IWebElement formBtn;
         public void LauchElements()
         {
             IJavaScriptExecutor js = (IJavaScriptExecutor) driver; js.ExecuteScript("arguments[0].scrollIntoView(true)", elementsBtn);
             elementsBtn.Click();
+        }
+        public void LaunchForm()
+        {
+            IJavaScriptExecutor js = (IJavaScriptExecutor) driver; js.ExecuteScript("arguments[0].scrollIntoView(true)", formBtn);
+            formBtn.Click();
         }
 
 
