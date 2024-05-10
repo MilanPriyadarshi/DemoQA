@@ -4,7 +4,7 @@ using OpenQA.Selenium.Chrome;
 namespace DemoQA.Driver1{
     class Driver{
 
-       public IWebDriver driver;
+       public static IWebDriver driver;
        [SetUp]
        public void intialize()
        {
