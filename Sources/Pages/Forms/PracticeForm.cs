@@ -13,12 +13,12 @@ namespace DemoQA.PracticeForm1
         }
         [FindsBy(How=How.XPath,Using ="//span[text()='Practice Form']")]
         IWebElement pracformClick;
-        [FindsBy(How=How.Id,Using ="firstName")]
+        [FindsBy(How=How.XPath,Using ="//input[@id='firstName']")]
         IWebElement fname;
-        [FindsBy(How=How.Id,Using ="lastName")]
+        [FindsBy(How=How.XPath,Using ="//input[@id='lastName']")]
         IWebElement lname;
-        [FindsBy(How=How.Id,Using ="userEmail")]
-        IWebElement femail;
+        [FindsBy(How=How.XPath,Using ="//input[@id='userEmail']")]
+        IWebElement femail; 
         public void FormOperations(string fullname,string lastname,string fullemail)
         {
             HomePage home= new HomePage(driver);
